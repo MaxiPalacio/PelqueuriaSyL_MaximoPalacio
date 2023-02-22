@@ -60,10 +60,7 @@ body{
     height: 45.8%;
 }
 .corte{
-    width: 200px;
-    height: 200px;
-    border-radius: 15%;
-    align-self: center;
+    height: 77vh;
 }
 .footer{
     background-color: rgb(224, 75, 75);
