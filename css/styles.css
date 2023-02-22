@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Shopify Sans Web", Roboto, "Segoe UI", "Helvetica Neue", sans-serif;
+    
+}
+html{
+    background-color: #5c6ac4;
+}
+/*Aqui esta el header junto con el nav*/
+.header{
+    top: 0px;
+}
+.navegador{
+    margin: 0 auto;
+}
+.lista-nav{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+.logo{
+    border-radius: 10%;
+    opacity: 70%;
+    width: 10vw;
+    margin: 2%;
+    position: relative;
+    top: 50;
+    left: 43%;
+
+
+}
+.link{
+    background-color: #5c6ac463;
+    text-decoration: none;
+    color: #C4B65C;
+    font-size: 1.8em;
+}
+/* Aqui esta la primera seccion de inicio */
+.seccion1{
+    width: 100%;
+    margin-top: 15vh;
+}
+.titulo{
+    display: flex;
+}
+.icon{
+    margin-left: 5%;
+}
+.ultimosTrabajos{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px 0px 0px 0px;
+}
+.trabajos{
+    width: 92%;
+    display: flex;
+    margin: 40px auto 0px auto;
+    gap: 65px;
+
+}
+.corte{
+    width: 40vw;
+    height: 40vh;
+    box-shadow: 5px 10px 90px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+}
+/* Aqui esta la primer seccion de Conocenos */
+.seccion-conocenos{
+    position: relative;
+    margin-top: 10vh; 
+}
+.img{
+    position: relative;
+    width: 50%;
+    left: 22%;
+    
+}
+.info{
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    bottom: 45%;
+
+    
+}
+.peluqueriasyl{
+    color: #C4B65C;
+    font-size: 2.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 2%;
+}
+.parrafo{   
+    color: #ffe1b5;
+    font-size: 1.5em;
+    font-style: oblique;
+    width: max-content;
+
+}
+.info-Servicios{
+    height: 50vh;
+    text-align: center;
+    margin-top: 10vh;
+}
+.parrafo-Servicios{
+    width: 30%;
+    color: #ffe1b5;
+    font-size: 1.5em;
+    font-style: oblique;
+    position: relative;
+    left: 35%;
+}
+#lista-Servicios{
+    margin-left: 1.5%;
+    text-align: start;
+}
+/* Aqui esta la seccion de donde estamos */
+.ubicacion{
+    margin-top: 15vh;
+}
+.icon-map{
+    width: 48px;
+    height: 48px;
+    margin-left: 5%;
+}
+.map{
+    margin: 45px 0px 0px 5%;
+}
+/* Aqui esta la seccion de galeria */
+#alto-galeria{
+    height: 190vh;
+}
+.galeria{ 
+    height: 30%;
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    
+}
+.galeriaTrabajos{
+    margin-left: 10vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 5vh;
+}
+.imagen-galeria{
+    width: 20%;
+    height: 80%;
+    border-radius: 10%;
+}
+/* Aqui esta la seccion de contacto */
+.seccionContacto{
+    margin-top: 10vh; 
+    height: 50vh;
+}
+.contactate{
+    width: fit-content;
+    margin-left: 10%;
+    margin-top: 7.6%;
+    
+}
+.tituloConectate{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+}
+.parrafoConectate{
+    margin-top: 5vh;
+    color: #ffe1b5;
+    font-size: 1.5em;
+}
+
+.formulario{
+    position: relative;
+    width: 45%;
+    left: 55%;
+    bottom: 40%;
+    
+}
+.tituloFormulario{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+    margin-bottom: 5%;
+}
+.colorLabel{
+    color: #ffe1b5;
+    font-size: 1.5em;
+}
+.tamañoInput{
+    width: 21.5%;
+    height: 2em;
+}
+.mensaje{
+    color: #ffe1b5;
+    font-size: 1.5em;
+    position: absolute;
+    left: 30%;
+    top: 31%;
+
+}
+
+.enviar{
+    display: inline-block;
+    width: 30%;
+    height: 2%;
+    margin-top: 8%;
+}
+
+/* Aqui esta el footer */
+.footer{
+    width: 100%;
+    margin-top: 8vh;
+}
+.footer-text{
+    display: inline-block;
+    font-size: 1rem;
+    position: relative;
+    left: 11vw;
+    top: 5vh;
+
+}
+.icon-text{
+    margin-top: 2px;
+    display: flex;
+    justify-content: end;
+}
+.pie-icon{
+    width: 28px;
+    height: 28px;
+    padding: 4px;
+}
+.redes-pie{
+    margin: 6px 4% 0px 0px;
+    text-decoration: none;
+    color: black;
+}
+
+
