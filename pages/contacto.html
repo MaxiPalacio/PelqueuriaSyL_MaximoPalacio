@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/nuevo.css">
     <link rel="icon" href="../favicon.ico" type="image/x-icon">
     <title>Peluqueria S&L | Contacto</title>
@@ -25,35 +26,18 @@
         </nav>
     </header>
     <main>
-        <section class="seccionContacto">
-            <div class="contactate">
-                <h1 class="tituloConectate">Contactate con Nosotros</h1>
-                <p class="parrafoConectate">Podes escribirnos por Whatsapp <a href="https://wa.me/543515493054" target="_blank"><img src="../assets/Icons/whatsapp.png" alt="" class="pie-icon"></a><br><br>
-                O por Instagram<a href="https://www.instagram.com/renovarte_actitud/?next=%2F" target="_blank"><img src="../assets/Icons/instagram.png" alt="" class="pie-icon"></a></p>
-            </div>
-            <div class="formulario">
-                <h2 class="tituloFormulario">O Bien Podes Mandarnos un Mail</h2>
-                <form action="">
-                    <div class="colorLabel">
-                        <label for="nombre">Nombre de Usuario</label><br>
-                        <input type="text" placeholder="Ej:Nombre" class="tamañoInput">
-                    </div>
-                    <div class="colorLabel">
-                        <label for="correoElectronico">Correo Electronico</label><br>
-                        <input type="text" placeholder="Ej:ejemplo@gmail.com" class="tamañoInput">
-                    </div>
-                    <div class="mensaje">
-                        <label for="mensaje">Escribe tu consulta</label><br>
-                        <textarea name="mensaje" id="mensaje" cols="30" rows="12"></textarea>
-                    </div>
-                    <div class="enviar">
-                        <input type="submit" id="enviar" value="Enviar" class="enviar">
-                    </div>
-                </form>
-            </div>  
-        </section>
+        <h1 class="titulo tamañoLetra">Contactate con Nosotros!!</h1>
+        <form class="form-floating tamañoForm">
+            <input type="email" class="form-control" id="floatingInputValue" placeholder="name@example.co" value=" ">
+            <label for="floatingInputValue">Correo Electronico</label>
+          </form>
+          <div class="form-floating tamañoForm">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">Comentario</label>
+          </div>
+          <button type="button" class="btn btn-secondary">Enviar</button>
     </main>
-
+        
     <footer class="footer">
         <div class="icons">
             <a href="https://wa.me/543515493054" target="_blank"><img src="../assets/Icons/whatsapp.png" alt="" id="icon-footer"></a>
@@ -61,5 +45,6 @@
             <a href=""><img src="../assets/Icons/facebook.png" alt="" id="icon-footer"></a>
         </div>
     </footer>
+<script src="../js/bootstrap.js"></script>
 </body>
 </html>

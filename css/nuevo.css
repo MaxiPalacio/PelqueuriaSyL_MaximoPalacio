@@ -8,6 +8,7 @@ body{
     /*background-color: #F37D30;*/
     background: url(../assets/IMG/fondo.jpg);
 }
+
 .text-white{
     color: white;
 }
@@ -154,4 +155,15 @@ body{
     border-radius: 15%;
     width: 30vw;
     height: 30vh;
+}
+.tamañoLetra{
+    font-size: 2rem;
+    width: max-content;
+    margin: 10px auto;
+}
+.tamañoForm{
+    width: 70%;
+    margin: 0 auto;
+    border: solid;
+    
 }
