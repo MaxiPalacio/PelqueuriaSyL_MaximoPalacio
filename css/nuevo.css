@@ -60,9 +60,11 @@ body{
     align-content: space-between;
     height: 45.8%;
 }
+/*corte bootstrap*/
 .corte{
     height: 77vh;
 }
+
 .footer{
     background-color: rgb(224, 75, 75);
     height: 10vh;
@@ -190,4 +192,29 @@ body{
 }
 .boton:hover{
     background-color: black;
+}
+
+@media (min-width: 1024px) {
+    .corte{
+        height:70vh;
+        width: 50vw;
+        margin: 3.5vh auto;
+
+    }
+    .tamañoForm{
+        width: 70vw;
+    }
+    .parrafo{
+        width: 69%;
+        font-size: 2rem;
+        
+    }
+    .tamañoLetra{
+        font-size: 3rem;
+        margin-bottom: 7vh;
+    }
+    .boton{
+        top: 6%;
+        left: 72%;
+    }
 }
