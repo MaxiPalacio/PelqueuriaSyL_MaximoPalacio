@@ -1,160 +1,202 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-body{
-    /*background-color: #F37D30;*/
-    background: url(../assets/IMG/fondo.jpg);
-}
-.text-white{
-    color: white;
-}
-.header{
-    background-color: black;
-    height: 13vh;
-    border: solid;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
 
-.logo{
-    font-family: 'Courier New', Courier, monospace;
-    color: white;
-    align-self: center;
-}
-.lista-nav{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 2%;
-}
+body {
+  /*background-color: #F37D30;*/
+  background: url(../assets/IMG/fondo.jpg); }
 
-.link{
-    text-decoration: none;
-    color: white;
-}
+.text-white {
+  color: white; }
 
-.seccion1{
-    height: 71vh;
-    margin-top: 6vh;
-}
-.icon{
-    width: 42px;
-    height: 42px;
-    margin-left: 6%;
-}
-.titulo{
-    display: flex;
-    align-items: center;
-    font-style: oblique;
-    font-size: 1.2em;
-}
-.trabajos{
-    display: flex;
-    justify-content: space-around;
-    align-content: space-between;
-    height: 45.8%;
-}
-.corte{
-    width: 200px;
-    height: 200px;
-    border-radius: 15%;
-    align-self: center;
-}
-.footer{
-    background-color: rgb(224, 75, 75);
-    height: 10vh;
-    
-    display: flex;
-}
-#icon-footer{
-    width: 3rem;
-}
-.icons{
-    width: 100%;
-    display: flex; 
-    justify-content: space-around;
-    align-items: center;
-}
+.header {
+  background-color: black;
+  height: 13vh;
+  border: solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.logo {
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  align-self: center; }
+
+.lista-nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 2%; }
+
+.link {
+  text-decoration: none;
+  color: white; }
+
+.seccion1 {
+  height: 71vh;
+  margin-top: 6vh; }
+
+.icon {
+  width: 42px;
+  height: 42px;
+  margin-left: 6%; }
+
+.titulo {
+  display: flex;
+  align-items: center;
+  font-style: oblique;
+  font-size: 1.2em; }
+
+.trabajos {
+  display: flex;
+  justify-content: space-around;
+  align-content: space-between;
+  height: 45.8%; }
+
+/*corte bootstrap*/
+.corte {
+  height: 77vh; }
+
+.footer {
+  background-color: #e04b4b;
+  height: 10vh;
+  display: flex; }
+
+#icon-footer {
+  width: 3rem; }
+
+.icons {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
 
 /*Conocenos */
-.conocenos{
-    background-color: rgba(0, 0, 0, 0.377);
-    height: 40vh;
-    display: flex;
-    justify-content: center;
-}
-.img{
-    width: 100%;
-    height: 100%;
-    justify-self: center;
-    opacity: 0.8;
-}
-.info{
-    position: absolute;
-    top: 20%;
-    text-align: center;
-    color: rgb(253, 232, 113);
-}
-.peluqueriasyl{
-    font-family: cursive;
-    text-align: center;
-    font-size: 2.7rem;
-}
-.parrafo{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 80%;
-    margin: 20px auto 0px auto;
-    font-size: 1.2rem;
-    font-weight: 500;
-    
-}
-.parrafo:hover{
-    background-color: black;
-    color: white;
-}
-/*Conocenos Servicios*/
-.servicios{
-    border-top: solid black 5px;
-    background-color: rgb(224, 170, 98);
-    border-bottom: solid black 3px;
-}
-#lista-Servicios{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: start;
-}
-.parrafo-Servicios{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 1.5rem;
-    padding: 15px;
-}
-/*DOnde estamos*/
-.ubicacion{
-    margin-top: 6vh;
-    margin-left: 6%;
-}
-.icon-map{
-    width: 48px;
-}
-/*Galeria*/
-.seccion-galeria{
-    display: flex;
-    flex-direction: column;
-    align-content: space-around;
+.conocenos {
+  background-color: rgba(0, 0, 0, 0.377);
+  height: 40vh;
+  display: flex;
+  justify-content: center; }
 
-}
-.galeria{
-    margin-bottom: 5%;
-    display: flex;
-    justify-content: space-evenly;
-}
-.imagen-galeria{
-    box-shadow: 1px 1px 50px 5px ;
-    border-radius: 15%;
-    width: 30vw;
-    height: 30vh;
-}
+.img {
+  width: 100%;
+  height: 100%;
+  justify-self: center;
+  opacity: 0.8; }
+
+.info {
+  position: absolute;
+  top: 20%;
+  text-align: center;
+  color: #fde871; }
+
+.peluqueriasyl {
+  font-family: cursive;
+  text-align: center;
+  font-size: 2.7rem; }
+
+.parrafo {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 80%;
+  margin: 20px auto 0px auto;
+  font-size: 1.2rem;
+  font-weight: 500; }
+
+/*Conocenos Servicios*/
+.servicios {
+  border-top: solid black 5px;
+  background-color: #e0aa62;
+  border-bottom: solid black 3px; }
+
+#lista-Servicios {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: start; }
+
+.parrafo-Servicios {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+  padding: 15px; }
+
+/*DOnde estamos*/
+.ubicacion {
+  margin-top: 6vh;
+  margin-left: 6%; }
+
+.icon-map {
+  width: 48px; }
+
+/*Galeria*/
+.seccion-galeria {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around; }
+
+.galeria {
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: space-evenly; }
+
+.imagen-galeria {
+  box-shadow: 1px 1px 50px 5px;
+  border-radius: 15%;
+  width: 30vw;
+  height: 30vh; }
+
+/*Conactacto con bootstrap*/
+.formulario {
+  height: 77vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.tamañoLetra {
+  font-size: 2rem;
+  width: max-content;
+  margin: 10px auto;
+  text-shadow: 2px 0px 2px black; }
+
+.tamañoForm {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 15px; }
+
+.icon-form {
+  width: 2rem; }
+
+.boton {
+  background-color: #ff593c;
+  color: white;
+  border: none;
+  border-radius: 8%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.2rem;
+  width: 12%;
+  height: 5vh;
+  position: relative;
+  top: 20px;
+  left: 77%;
+  box-shadow: 0px 0px 10px 5px black; }
+
+.boton:hover {
+  background-color: black; }
+
+@media (min-width: 1024px) {
+  .corte {
+    height: 70vh;
+    width: 50vw;
+    margin: 3.5vh auto; }
+  .tamañoForm {
+    width: 70vw; }
+  .parrafo {
+    width: 69%;
+    font-size: 2rem; }
+  .tamañoLetra {
+    font-size: 3rem;
+    margin-bottom: 7vh; }
+  .boton {
+    top: 6%;
+    left: 72%; } }
