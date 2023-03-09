@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/nuevo.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <title>Peluqueria S&L</title>
@@ -25,29 +26,24 @@
         </ul>
     </nav>
 </header>
-    <main>
-        <section class="seccion1">
-            <div class="titulo">
-                <img src="./assets/Icons/tijeraout.png" alt="" class="icon">
-                <h1>Ultimos Trabajos</h1>
-            </div>
-
-            <div class="trabajos">
-                
-                <img src="assets/IMG/corte1.PNG" alt="corte" class="corte">
-                
-                <img src="assets/IMG/corte2.PNG" alt="" class="corte">
-            </div>
-            <div class="trabajos">
-                <img src="assets/IMG/corte3.PNG" alt="" class="corte">
-                
-                <img src="assets/IMG/corte4.PNG" alt="" class="corte">
-                
-            </div>
-        </section>
-        
-        <!-- Mas adelante quiero poner mas contenido pero  -->
-    </main>
+<main>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/IMG/corte1.PNG" class="d-block corte" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/IMG/corte2.PNG" class="d-block  corte" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/IMG/corte3.PNG" class="d-block  corte" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/IMG/corte4.PNG" class="d-block corte" alt="...">
+        </div>
+      </div>
+    </div>
+  </main>
 
     <footer class="footer container-fluid">
         <div class="icons">
