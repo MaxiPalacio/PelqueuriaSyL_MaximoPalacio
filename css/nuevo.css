@@ -98,4 +98,34 @@
 
 /*footer*/
 .footer {
-  background-color: #ff9b49; }
+  background-color: #ff9b49;
+  display: flex;
+  flex-direction: column; }
+
+.logo_footer {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 5rem;
+  font-weight: 700;
+  margin-top: 5%; }
+
+.parrafo_footer {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.2rem; }
+
+.redes {
+  margin: 7% 0px 7% 9%;
+  width: 50%;
+  font-size: 2rem; }
+
+.icono_footer {
+  height: 45px;
+  width: 45px;
+  margin-right: 10px; }
+
+.texto_icono {
+  margin: 3% 0px 0px 9%;
+  font-size: 1.2rem;
+  font-weight: 700; }
