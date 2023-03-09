@@ -30,6 +30,9 @@
   font-weight: 700;
   margin-left: -40px; }
 
+.link:hover {
+  color: black; }
+
 .corte {
   height: 60vh;
   width: 100vw; }
