@@ -9,7 +9,8 @@
   height: 13vh;
   display: flex;
   flex-direction: column;
-  justify-content: center; }
+  justify-content: center;
+  background-color: #ff9b49; }
 
 .logo {
   font-family: 'Courier New', Courier, monospace;
@@ -25,9 +26,76 @@
 .link {
   text-decoration: none;
   color: black;
+  font-size: 1.2rem;
   font-weight: 700;
   margin-left: -40px; }
 
 .corte {
   height: 60vh;
   width: 100vw; }
+
+/*Seccion de horarios/index*/
+.horarios {
+  background-color: black;
+  color: white;
+  height: 55vh;
+  display: flex;
+  flex-direction: column; }
+
+.titulo_horarios {
+  text-align: center;
+  margin-top: 8%;
+  font-size: 3rem; }
+
+.dias {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 5% auto 0 auto;
+  border-bottom: solid 1px white;
+  height: 7vh;
+  font-size: 1.5rem;
+  font-weight: 700; }
+
+/*foto de la peluqueria*/
+.peluqueria {
+  background-image: url(../assets/IMG/fondo.jpg);
+  padding: 10%; }
+
+.foto_peluqueria {
+  width: 70vw;
+  height: 50vh;
+  position: relative;
+  left: 60px; }
+
+.cuadrado {
+  border: solid 10px #ffbe46;
+  width: 70vw;
+  height: 50vh;
+  position: absolute;
+  top: 140%;
+  left: 15%; }
+
+/*seccion turno*/
+.turno {
+  background-color: black;
+  color: white;
+  height: 30vh;
+  display: flex;
+  flex-direction: column; }
+
+.titulo_turno {
+  text-align: center;
+  margin-top: 8%;
+  font-size: 2.5rem; }
+
+.parrafo_turno {
+  width: 85%;
+  margin: 5% auto 0 auto;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-bottom: solid 1px white; }
+
+/*footer*/
+.footer {
+  background-color: #ff9b49; }
