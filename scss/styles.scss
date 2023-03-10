@@ -31,14 +31,15 @@
     display: flex;
     justify-content: space-around;
 }
-
-  
 .link {
     text-decoration: none;
     color: black;
     font-size: 1.2rem;
     font-weight: $negrita;
     margin-left: -40px;
+}
+a.active{
+    border-bottom: solid;
 }
 .link:hover{
     color: white;

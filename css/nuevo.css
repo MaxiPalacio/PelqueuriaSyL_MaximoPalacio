@@ -32,6 +32,9 @@
   font-weight: 700;
   margin-left: -40px; }
 
+a.active {
+  border-bottom: solid; }
+
 .link:hover {
   color: white;
   border-bottom: solid 2px white; }
