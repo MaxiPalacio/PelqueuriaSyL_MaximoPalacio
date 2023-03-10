@@ -211,3 +211,34 @@
   height: 100%;
   width: 100%;
   position: absolute; }
+
+/*pagina galeria*/
+.galeria {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white; }
+
+.titulo_galeria {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: 20px; }
+
+.parrafo_galeria {
+  width: 90%;
+  height: 10vh;
+  margin: 10px auto;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-bottom: solid 1px white; }
+
+.imagenes_galeria {
+  display: flex;
+  flex-direction: column; }
+
+.imagen {
+  height: 55vh;
+  width: 80vw;
+  margin: 30px auto 20px auto;
+  border-radius: 10%; }

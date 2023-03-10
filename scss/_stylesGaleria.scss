@@ -1,0 +1,30 @@
+.galeria{
+    display: $flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+.titulo_galeria{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: $negrita;
+    margin-top: 20px;
+}
+.parrafo_galeria{
+    width: 90%;
+    height: 10vh;
+    margin: 10px auto;
+    font-size: 1.2rem;
+    font-weight: $negrita;
+    border-bottom: $borde_abajo_blanco;
+}
+.imagenes_galeria{
+    display: flex;
+    flex-direction: column;
+}
+.imagen{
+    height: 55vh;
+    width: 80vw;
+    margin: 30px auto 20px auto;
+    border-radius: 10%;
+}
