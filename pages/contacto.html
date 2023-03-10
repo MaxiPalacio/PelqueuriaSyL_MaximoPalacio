@@ -26,33 +26,22 @@
         </nav>
     </header>
     <main>
-        <section class="seccionContacto">
-            <div class="contactate">
-                <h1 class="tituloConectate">Contactate con Nosotros</h1>
-                <p class="parrafoConectate">Podes escribirnos por Whatsapp <a href="https://wa.me/543515493054" target="_blank"><img src="../assets/Icons/whatsapp.png" alt="" class="pie-icon"></a><br><br>
-                O por Instagram<a href="https://www.instagram.com/renovarte_actitud/?next=%2F" target="_blank"><img src="../assets/Icons/instagram.png" alt="" class="pie-icon"></a></p>
+        <div class="formulario">
+            <h1 class="titulo_formulario">Contactate con Nosotros!!</h1>
+            <p class="parrafo_formulario">Escribinos un Correo sobre cualquier duda, Tu consulta no molesta</p>
+
+            <form class="form-floating tamañoForm">
+                <input type="email" class="form-control" id="floatingInputValue" placeholder="name@example.co"
+                    value=" ">
+                <label for="floatingInputValue">Correo Electronico</label>
+            </form>
+            <div class="form-floating tamañoForm">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                    style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Comentario</label>
             </div>
-            <div class="formulario">
-                <h2 class="tituloFormulario">O Bien Podes Mandarnos un Mail</h2>
-                <form action="">
-                    <div class="colorLabel">
-                        <label for="nombre">Nombre de Usuario</label><br>
-                        <input type="text" placeholder="Ej:Nombre" class="tamañoInput">
-                    </div>
-                    <div class="colorLabel">
-                        <label for="correoElectronico">Correo Electronico</label><br>
-                        <input type="text" placeholder="Ej:ejemplo@gmail.com" class="tamañoInput">
-                    </div>
-                    <div class="mensaje">
-                        <label for="mensaje">Escribe tu consulta</label><br>
-                        <textarea name="mensaje" id="mensaje" cols="30" rows="12"></textarea>
-                    </div>
-                    <div class="enviar">
-                        <input type="submit" id="enviar" value="Enviar" class="enviar">
-                    </div>
-                </form>
-            </div>  
-        </section>
+            <button type="button" class="boton">Enviar</button>
+        </div>
     </main>
 
     <footer class="footer container-fluid">
@@ -66,5 +55,6 @@
           <p class="texto_icono"><a href="https://goo.gl/maps/Vqg7x7RGVG6DXnus5" target="_blank"><img src="../assets/Icons/ubicacion.png" alt="icono_ubicacion" class="icono_footer"></a>Av.Los Platanos 1108</p>
         </div>
     </footer>
+<script src="../js/bootstrap.js"></script>
 </body>
 </html>

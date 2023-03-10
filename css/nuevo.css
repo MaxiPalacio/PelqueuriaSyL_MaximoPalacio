@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0px;
   padding: 0px;
@@ -242,3 +243,42 @@
   width: 80vw;
   margin: 30px auto 20px auto;
   border-radius: 10%; }
+
+/*pagina contacto*/
+.formulario {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white; }
+
+.titulo_formulario {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 5%; }
+
+.parrafo_formulario {
+  font-size: 1.5rem;
+  width: 80%;
+  height: 20%;
+  margin: 20px auto 0px auto;
+  border-bottom: solid 1px white; }
+
+.tamañoForm {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 15px;
+  color: black; }
+
+.boton {
+  background-color: #ff593c;
+  color: white;
+  border: none;
+  border-radius: 8%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.2rem;
+  width: 12%;
+  height: 5vh;
+  position: relative;
+  top: 20px;
+  left: 77%; }
