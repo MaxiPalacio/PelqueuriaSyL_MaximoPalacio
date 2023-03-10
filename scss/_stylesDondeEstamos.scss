@@ -1,0 +1,24 @@
+.ubicacion{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.ubicacion_titulo{
+    margin: 5%;
+}
+.ubicacion_mapa{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:60vh;
+}
+
+.ubicacion_mapa iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+
+}
