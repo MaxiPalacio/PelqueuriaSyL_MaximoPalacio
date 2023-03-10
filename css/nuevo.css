@@ -139,6 +139,10 @@
   font-size: 1.2rem;
   font-weight: 700; }
 
+.main {
+  background-color: black;
+  color: white; }
+
 /*pagina conocenos*/
 .conocenos {
   background-color: rgba(0, 0, 0, 0.377);
@@ -198,7 +202,10 @@
   flex-direction: column; }
 
 .ubicacion_titulo {
-  margin: 5%; }
+  margin: 5%;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700; }
 
 .ubicacion_mapa {
   overflow: hidden;
@@ -249,7 +256,6 @@
   height: 60vh;
   display: flex;
   flex-direction: column;
-  background-color: black;
   color: white; }
 
 .titulo_formulario {
