@@ -70,8 +70,7 @@ a.active{
     margin: 5% auto 0 auto;
     border-bottom: $borde_abajo_blanco;
     height: 7vh;
-    font-size: 1.5rem;
-    font-weight: $negrita;
+    @include negrita-1rem;
 
 }
 /*foto de la peluqueria*/
@@ -113,16 +112,15 @@ a.active{
 .parrafo_turno{
     width: 85%;
     margin:5% auto 0 auto;
-    font-size: 1.5rem;
-    font-weight: $negrita;
     border-bottom: $borde_abajo_blanco;
+    @include negrita-1rem;
 }
 /*footer*/
 .footer{
     background-color: rgb(255, 155, 73);
     display: flex;
     flex-direction: column;
-    height: 70vh;
+    height: 75vh;
 }
 
 .logo_footer{
@@ -164,4 +162,6 @@ a.active{
 /*pagina galeria*/
 @import "stylesGaleria.scss";
 /*pagina contacto*/
-@import "stylesContacto.scss"
+@import "stylesContacto.scss";
+/*mediaquerys*/
+@import "mediaquerys.scss";

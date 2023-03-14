@@ -1,0 +1,68 @@
+@media  screen and (min-width: 768px) and (max-width: 1024px) {
+    .lista-nav{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .carousel{
+        background-color: black;
+        padding-top: 4%;
+    }
+    .corte{
+        height: 60vh;
+        @include width80-center;
+        border-radius: 5%;
+    }
+    .titulo_horarios{
+        margin-top: 3%;
+        font-size: 3.5rem;
+    }
+    /*foto de la peluqueria*/
+    .peluqueria{
+        padding: 5%;
+    }
+    .foto_peluqueria{
+        width: 80vw;
+        height: 60vh;
+    }
+    .cuadrado{
+        top: 140vh;
+        left: 6%;
+        width: 80vw;
+        height: 60vh;
+        border: 15px solid rgb(255, 190, 70);
+    }
+    /*seccion turno*/
+    .titulo_turno{
+        margin-top: 6%;
+        font-size: 3rem;
+    }
+    .parrafo_turno{
+        width: 80%;
+        margin: 3% auto 5% auto;
+        text-align: $center;
+    }
+    /*footer*/
+    .footer{
+        height: 60vh;
+    }
+    .logo_footer{
+        font-size: 5rem;
+        margin-top: 2%;
+    }
+    .parrafo_footer{
+        font-size: 1.5rem;
+    }
+    .redes{
+        margin: 2% auto;
+        font-size: 2.5rem;
+        text-align: center;  
+    }
+    .texto_icono{
+        margin: 1% auto;
+        text-align: center;
+    }
+    .margin{
+        position: relative;
+        left: 5.5%;
+    }
+}
