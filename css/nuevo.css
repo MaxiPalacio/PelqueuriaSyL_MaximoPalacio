@@ -148,7 +148,6 @@ a.active {
 /*pagina conocenos*/
 .conocenos {
   background-color: rgba(0, 0, 0, 0.377);
-  height: 40vh;
   display: flex;
   justify-content: center; }
 
@@ -156,13 +155,16 @@ a.active {
   width: 100%;
   height: 100%;
   justify-self: center;
-  opacity: 0.7; }
+  opacity: 0.7;
+  object-fit: cover;
+  background-color: white; }
 
 .info {
   position: absolute;
-  top: 15%;
   text-align: center;
-  color: black; }
+  color: black;
+  top: 25%;
+  left: 0%; }
 
 .parrafo {
   width: 70%;
