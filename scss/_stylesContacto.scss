@@ -6,14 +6,19 @@
 }
 .titulo_formulario{
     font-size: 3rem;
+    border-bottom: $borde_abajo_blanco;
+    width: 80%;
+    margin: 8% auto;
     text-align: center;
-    margin-top: 5%;
+}
+#titulo1{
+    border-bottom: none;
 }
 .parrafo_formulario{
     font-size: 1.5rem;
     width: 80%;
     height: 20%;
-    margin:20px auto 0px auto;
+    margin: 0px auto 0px auto;
     border-bottom: $borde_abajo_blanco;
 }
 .tamañoForm{
