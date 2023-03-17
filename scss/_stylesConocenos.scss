@@ -5,14 +5,14 @@
     background-color: rgba(0, 0, 0, 0.377);
     display: flex;
     justify-content: center;
+    height: 60vh;
 }
 .img{
     width: 100%;
     height: 100%;
-    justify-self: center;
     opacity: 0.7;
     object-fit: cover;
-    background-color: white;
+    background-color: rgb(255, 126, 21);
 }
 .info{
     position: absolute;
@@ -20,8 +20,6 @@
     color: rgb(0, 0, 0);
     top: 25%;
     left: 0%;
-
-    
 }
 
 .parrafo{
@@ -37,9 +35,8 @@
     display: flex;
     flex-direction: column;
     font-weight: $negrita;
-    height: 75vh;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 8%;
+    padding-bottom: 8%;
 }
 .titulo_servicios{
     text-align: $center;
@@ -48,12 +45,12 @@
 .parrafo_servicios{
     font-size: 1.5rem;
     padding: 20px;
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
 }
 .item_servicios{
     border-bottom: $borde_abajo_blanco;
     width: 80%;
     font-size: 1.5rem;
-    margin: 10px auto 0px auto; 
+    margin: 8% auto 0px auto; 
 }

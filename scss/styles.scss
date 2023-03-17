@@ -54,13 +54,13 @@ a.active{
 .horarios{
     background-color: black;
     color: white;
-    height: 55vh;
     display: $flex;
     flex-direction: column;
+    padding-bottom: 10%;
 }
 .titulo_horarios{
     text-align: $center;
-    margin-top: 8%;
+    margin-top: 10%;
     font-size: 3rem;
 }
 .dias{
