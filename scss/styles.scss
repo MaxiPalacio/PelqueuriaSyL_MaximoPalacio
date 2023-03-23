@@ -88,9 +88,10 @@ a.active{
 .turno{
     background-color: black;
     color: white;
-    height: 32vh;
+    height: auto;
     display: $flex;
     flex-direction: column;
+    padding-bottom: 3%;
 }
 .titulo_turno{
     text-align: $center;
