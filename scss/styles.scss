@@ -80,19 +80,8 @@ a.active{
 
 }
 .foto_peluqueria{
-    width: 70vw;
-    height: 50vh;
-    position: relative;
-    left: 60px;
-    border-radius: 5%;
-}
-.cuadrado{
-    border: solid 10px rgb(255, 190, 70);
-    width: 70vw;
-    height: 50vh;
-    position: absolute;
-    top: 140%;
-    left: 15%;
+    width: 85vw;
+    height: 60vh;
     border-radius: 5%;
 }
 /*seccion turno*/
@@ -164,3 +153,5 @@ a.active{
 @import "stylesContacto.scss";
 /*mediaquerys*/
 @import "mediaquerys.scss";
+/*404*/
+@import "styles404.scss";

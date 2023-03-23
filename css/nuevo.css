@@ -71,19 +71,8 @@ a.active {
   padding: 10%; }
 
 .foto_peluqueria {
-  width: 70vw;
-  height: 50vh;
-  position: relative;
-  left: 60px;
-  border-radius: 5%; }
-
-.cuadrado {
-  border: solid 10px #ffbe46;
-  width: 70vw;
-  height: 50vh;
-  position: absolute;
-  top: 140%;
-  left: 15%;
+  width: 85vw;
+  height: 60vh;
   border-radius: 5%; }
 
 /*seccion turno*/
@@ -150,7 +139,7 @@ a.active {
   background-color: rgba(0, 0, 0, 0.377);
   display: flex;
   justify-content: center;
-  height: 60vh; }
+  height: 50vh; }
 
 .img {
   width: 100%;
@@ -239,7 +228,6 @@ a.active {
 
 .parrafo_galeria {
   width: 90%;
-  height: 10vh;
   margin: 10px auto;
   font-size: 1.2rem;
   font-weight: 700;
@@ -247,10 +235,12 @@ a.active {
 
 .imagenes_galeria {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  overflow-x: hidden;
+  padding-bottom: 5%; }
 
 .imagen {
-  height: 55vh;
+  height: 85vh;
   width: 78vw;
   margin: 10% auto 20px auto;
   border-radius: 10%; }
@@ -299,6 +289,16 @@ a.active {
   left: 77%; }
 
 /*mediaquerys*/
+@media screen and (max-width: 510px) {
+  .header {
+    height: auto; }
+  .lista-nav {
+    flex-direction: column; }
+  .link {
+    margin-left: 1%;
+    display: inline-block;
+    margin-bottom: 2%; } }
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .lista-nav {
     width: 80%;
@@ -315,17 +315,9 @@ a.active {
     margin-top: 3%;
     font-size: 3.5rem; }
   /*foto de la peluqueria*/
-  .peluqueria {
-    padding: 5%; }
   .foto_peluqueria {
     width: 80vw;
     height: 60vh; }
-  .cuadrado {
-    top: 140vh;
-    left: 6%;
-    width: 80vw;
-    height: 60vh;
-    border: 15px solid #ffbe46; }
   /*seccion turno*/
   .titulo_turno {
     margin-top: 6%;
@@ -349,5 +341,145 @@ a.active {
     width: 50%;
     padding-left: 15%; }
   /*PAGINA GALERIA*/
+  .parrafo_galeria {
+    margin: 2% auto -5% auto;
+    width: 85%; }
   .imagen {
     height: 75vh; } }
+
+@media screen and (min-width: 1025px) {
+  .lista-nav {
+    width: 55%;
+    margin: 0 auto; }
+  .carousel {
+    background-color: black;
+    padding-top: 2%; }
+  .corte {
+    height: 90vh;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 5%; }
+  .horarios {
+    padding-bottom: 5%; }
+  .titulo_horarios {
+    margin-top: 5%;
+    font-size: 4rem; }
+  .dias {
+    width: 60%;
+    margin: 2% auto;
+    font-size: 2rem; }
+  /*foto de la peluqueria*/
+  .peluqueria {
+    padding: 5%; }
+  .foto_peluqueria {
+    height: 85vh; }
+  /*seccion turno*/
+  .titulo_turno {
+    margin-top: 2%;
+    font-size: 4rem; }
+  .parrafo_turno {
+    font-size: 2rem;
+    width: 70%;
+    text-align: center; }
+  /*pagina conocenos*/
+  .conocenos {
+    height: 70vh; }
+  .img {
+    background-color: black; }
+  .info {
+    top: 30%;
+    left: 0%; }
+  .parrafo {
+    width: 80%;
+    font-size: 3rem; }
+  .servicios {
+    padding-top: 5%;
+    padding-bottom: 2%; }
+  .titulo_servicios {
+    font-size: 4rem; }
+  .parrafo_servicios {
+    font-size: 2rem;
+    padding: 1%;
+    width: 80%; }
+  .item_servicios {
+    width: 73%;
+    font-size: 2rem;
+    margin: 3% auto; }
+  /*Pagina donde estamos*/
+  .ubicacion_titulo {
+    margin: 2%;
+    font-size: 4rem; }
+  .ubicacion_mapa {
+    padding-bottom: 50%; }
+  /*pagina galeria*/
+  .titulo_galeria {
+    font-size: 4rem;
+    margin-top: 2%; }
+  .parrafo_galeria {
+    width: 80%;
+    margin: 2% auto;
+    font-size: 2rem;
+    text-align: center; }
+  .imagenes_galeria {
+    padding-bottom: 2%; }
+  .imagen {
+    height: 85vh;
+    width: 50vw;
+    margin: 2% auto 5% auto; }
+  /*pagina contacto*/
+  .titulo_formulario {
+    font-size: 4rem;
+    margin: 3% auto; }
+  .parrafo_formulario {
+    font-size: 2rem;
+    height: auto;
+    border: none;
+    width: 65%; }
+  .tamañoForm {
+    width: 65%;
+    margin-top: 20px; }
+  .boton {
+    left: 70.5%; }
+  /*footer*/
+  .logo_footer {
+    font-size: 5rem;
+    margin-top: 2%; }
+  .parrafo_footer {
+    font-size: 1.5rem; }
+  .redes {
+    margin: 2% auto;
+    font-size: 2.5rem;
+    text-align: center; }
+  .texto_icono {
+    margin: 1% auto;
+    width: 40%;
+    padding-left: 15%; } }
+
+/*404*/
+.contenedor_404 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  background-color: #ff9b49; }
+
+.titulo_404 {
+  font-size: 4rem; }
+
+.parrafo_404 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 1%; }
+
+._404 {
+  font-size: 5rem; }
+
+.boton_404 {
+  font-size: 1.7rem;
+  background-color: transparent;
+  border: none;
+  border-radius: 5%; }
+
+.boton_404:hover {
+  background-color: #ff593c; }

@@ -1,3 +1,16 @@
+@media  screen and (max-width: 510px){
+    .header{
+        height: auto;
+    }
+    .lista-nav{
+        flex-direction: column;
+    }
+    .link{
+        margin-left: 1%;
+        display: inline-block;
+        margin-bottom: 2%;
+    }
+}
 @media  screen and (min-width: 768px) and (max-width: 1024px) {
     .lista-nav{
         width: 80%;
@@ -17,19 +30,9 @@
         font-size: 3.5rem;
     }
     /*foto de la peluqueria*/
-    .peluqueria{
-        padding: 5%;
-    }
     .foto_peluqueria{
         width: 80vw;
         height: 60vh;
-    }
-    .cuadrado{
-        top: 140vh;
-        left: 6%;
-        width: 80vw;
-        height: 60vh;
-        border: 15px solid rgb(255, 190, 70);
     }
     /*seccion turno*/
     .titulo_turno{
@@ -60,7 +63,152 @@
         padding-left: 15%;
     }
     /*PAGINA GALERIA*/
+    .parrafo_galeria{
+        margin: 2% auto -5% auto;
+        width: 85%;
+    }
     .imagen{
         height: 75vh;
+    }
+}
+@media screen and (min-width: 1025px) {
+    .lista-nav{
+        width: 55%;
+        margin: 0 auto;
+    }
+    .carousel{
+        background-color: black;
+        padding-top: 2%;
+    }
+    .corte{
+        height: 90vh;
+        width: 60%;
+        margin: 0 auto;
+        border-radius: 5%;
+    }
+    .horarios{
+        padding-bottom: 5%;
+    }
+    .titulo_horarios{
+        margin-top: 5%;
+        font-size: 4rem;
+    }
+    .dias{
+        width: 60%;
+        margin: 2% auto;
+        font-size: 2rem;
+    }
+    /*foto de la peluqueria*/
+    .peluqueria{
+    padding: 5%;
+    }
+    .foto_peluqueria{
+    height: 85vh;
+    }
+     /*seccion turno*/
+    .titulo_turno{
+        margin-top: 2%;
+        font-size: 4rem;
+    }
+    .parrafo_turno{
+        font-size: 2rem;
+        width: 70%;
+        text-align: center;
+    }
+    /*pagina conocenos*/
+    .conocenos{
+        height: 70vh;
+    }
+    .img{
+        background-color: black;
+    }
+    .info{
+        top: 30%;
+        left: 0%;
+    }
+    
+    .parrafo{
+        width: 80%;
+        font-size: 3rem;
+    }
+    .servicios{
+        padding-top: 5%;
+        padding-bottom: 2%;
+    }
+    .titulo_servicios{
+        font-size: 4rem;
+    }
+    .parrafo_servicios{
+        font-size: 2rem;
+        padding: 1%;
+        width: 80%;
+    }
+    .item_servicios{
+        width: 73%;
+        font-size: 2rem;
+        margin: 3% auto;
+    }
+    /*Pagina donde estamos*/
+    .ubicacion_titulo{
+        margin: 2%;
+        font-size: 4rem;
+    }
+    .ubicacion_mapa{
+        padding-bottom: 50%;
+    }
+    /*pagina galeria*/
+    .titulo_galeria{
+        font-size: 4rem;
+        margin-top: 2%;
+    }
+    .parrafo_galeria{
+        width: 80%;
+        margin: 2% auto;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .imagenes_galeria{
+        padding-bottom: 2%;
+    }
+    .imagen{
+        height: 85vh;
+        width: 50vw;
+        margin: 2% auto 5% auto;
+    }
+    /*pagina contacto*/
+    .titulo_formulario{
+        font-size: 4rem;
+        margin: 3% auto;
+    }
+    .parrafo_formulario{
+        font-size: 2rem;
+        height: auto;
+        border: none;
+        width: 65%;
+    }
+    .tamañoForm{
+        width: 65%;
+        margin-top: 20px;
+    }
+    .boton{
+        left: 70.5%;
+    }
+    /*footer*/
+    .logo_footer{
+        font-size: 5rem;
+        margin-top: 2%;
+    }
+    .parrafo_footer{
+        font-size: 1.5rem;
+    }
+    .redes{
+        margin: 2% auto;
+        font-size: 2.5rem;
+        text-align: center;  
+    }
+    .texto_icono{
+        margin: 1% auto;
+        width: 40%;
+        padding-left: 15%;
     }
 }
