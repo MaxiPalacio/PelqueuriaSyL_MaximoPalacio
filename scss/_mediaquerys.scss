@@ -10,6 +10,9 @@
         display: inline-block;
         margin-bottom: 2%;
     }
+    .imagen{
+        height: 55vh;
+    }
 }
 @media  screen and (min-width: 768px) and (max-width: 1024px) {
     .lista-nav{
@@ -66,9 +69,6 @@
     .parrafo_galeria{
         margin: 2% auto -5% auto;
         width: 85%;
-    }
-    .imagen{
-        height: 75vh;
     }
 }
 @media screen and (min-width: 1025px) {
