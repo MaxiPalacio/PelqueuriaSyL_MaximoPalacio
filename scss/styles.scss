@@ -133,10 +133,14 @@ a.active{
     margin: 0 auto;
     font-size: 1.2rem;
 }
+
 .redes{
     margin: 7% 0px 7% 9%;
     width: 50%;
     font-size: 2rem;
+}
+.redes_footer{
+    margin: 2% 0px 0px 9%;
 }
 .icono_footer{
     height: 45px;
@@ -144,7 +148,6 @@ a.active{
     margin-right: 10px;
 }
 .texto_icono{
-    margin: 2% 0px 0px 9%;
     font-size: 1.2rem;
     font-weight: $negrita;
     text-decoration: none;

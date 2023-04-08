@@ -130,13 +130,15 @@ a.active {
   width: 50%;
   font-size: 2rem; }
 
+.redes_footer {
+  margin: 2% 0px 0px 9%; }
+
 .icono_footer {
   height: 45px;
   width: 45px;
   margin-right: 10px; }
 
 .texto_icono {
-  margin: 2% 0px 0px 9%;
   font-size: 1.2rem;
   font-weight: 700;
   text-decoration: none;
@@ -313,8 +315,14 @@ a.active {
     margin-left: 1%;
     display: inline-block;
     margin-bottom: 2%; }
+  .corte {
+    height: 48vh; }
+  .foto_peluqueria {
+    height: 48vh; }
+  .info {
+    top: 40%; }
   .imagen {
-    height: 55vh; } }
+    height: 45vh; } }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .lista-nav {
@@ -353,9 +361,10 @@ a.active {
     margin: 2% auto;
     font-size: 2.5rem;
     text-align: center; }
-  .texto_icono {
+  .redes_footer {
     margin: 1% auto;
-    width: 50%;
+    width: 50%; }
+  .texto_icono {
     padding-left: 15%; }
   /*PAGINA GALERIA*/
   .parrafo_galeria {
@@ -467,16 +476,21 @@ a.active {
     margin-top: 2%; }
   .parrafo_footer {
     font-size: 1.5rem; }
-  .redes_footer {
-    display: flex; }
   .redes {
     margin: 1% auto;
     font-size: 2.5rem;
     text-align: center;
     flex-direction: column; }
+  .redes_footer {
+    display: flex;
+    margin: 0px auto 0px 16%;
+    width: 70%; }
   .icono_footer {
     width: 58px;
-    height: 58px; }
+    height: 58px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto; }
   .texto_icono {
     margin: 0 auto;
     text-align: center; } }
