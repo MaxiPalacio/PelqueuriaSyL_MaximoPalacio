@@ -18,7 +18,11 @@
   color: black;
   align-self: center;
   font-size: 3rem;
-  font-weight: 700; }
+  font-weight: 700;
+  text-decoration: none; }
+
+.logo:hover {
+  color: black; }
 
 .lista-nav {
   list-style: none;
@@ -106,9 +110,14 @@ a.active {
 .logo_footer {
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 4em;
+  font-size: 2em;
   font-weight: 700;
-  margin-top: 5%; }
+  margin-top: 5%;
+  text-decoration: none;
+  color: black; }
+
+.logo_footer:hover {
+  color: black; }
 
 .parrafo_footer {
   text-align: center;
@@ -129,7 +138,12 @@ a.active {
 .texto_icono {
   margin: 2% 0px 0px 9%;
   font-size: 1.2rem;
-  font-weight: 700; }
+  font-weight: 700;
+  text-decoration: none;
+  color: black; }
+
+.texto_icono:hover {
+  color: black; }
 
 .main {
   background-color: black;
@@ -425,10 +439,11 @@ a.active {
     font-size: 2rem;
     text-align: center; }
   .imagenes_galeria {
-    padding-bottom: 2%; }
+    padding-bottom: 2%;
+    flex-direction: row; }
   .imagen {
-    height: 85vh;
-    width: 50vw;
+    height: 70vh;
+    width: 33vw;
     margin: 2% auto 5% auto; }
   /*pagina contacto*/
   .titulo_formulario {
@@ -445,19 +460,26 @@ a.active {
   .boton {
     left: 70.5%; }
   /*footer*/
+  .footer {
+    padding-bottom: 1%; }
   .logo_footer {
     font-size: 5rem;
     margin-top: 2%; }
   .parrafo_footer {
     font-size: 1.5rem; }
+  .redes_footer {
+    display: flex; }
   .redes {
-    margin: 2% auto;
-    font-size: 2.5rem;
-    text-align: center; }
-  .texto_icono {
     margin: 1% auto;
-    width: 40%;
-    padding-left: 15%; } }
+    font-size: 2.5rem;
+    text-align: center;
+    flex-direction: column; }
+  .icono_footer {
+    width: 58px;
+    height: 58px; }
+  .texto_icono {
+    margin: 0 auto;
+    text-align: center; } }
 
 /*404*/
 .contenedor_404 {
